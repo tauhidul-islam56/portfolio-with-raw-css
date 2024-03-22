@@ -1,0 +1,203 @@
+body{
+    background-color: #212121;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: gainsboro;
+}
+/* Header Part */
+.container {
+    background-color: #262626;
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    box-sizing: border-box;
+    height: 50px;
+}
+header .container #logo{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+header .container nav{
+    float: right;
+    width: 540px;
+    margin-top: 10px;
+    padding-top: 5px;
+    
+}
+header .container nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+header .container nav li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding: 5px 10px;
+}
+header .container nav li a:hover{
+    border-radius: 7px;
+    padding: 5px 10px;
+    background-color: chocolate;
+}
+.intro{
+    overflow: hidden;
+    width: 1140px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #262626;
+    height: 220px;
+    padding: 20px;
+}
+.intro h2{
+    display: inline-block;
+    margin-top: 50px;
+    width: 740px;
+    margin-bottom: 60px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color: #262626;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: chocolate;
+    border: none;
+}
+.intro figure{
+    float: right;
+    padding-right: 100px;
+    width: 200px;
+}
+/* About */
+.about{
+    overflow: hidden;
+    width: 1140px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #262626;
+    height: 264px;
+    padding: 20px;
+}
+.without-figure{
+    width: 586px;
+    display: inline-block;
+}
+.without-figure h2{
+    margin: 20px 0px;
+}
+.without-figure h3{
+    color: chocolate;
+}
+.about figure{
+    float: right;
+}
+/* Resume */
+.resume{
+    width: 1140px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #262626;
+    height: 600px;
+    padding: 20px;
+}
+.resume > h3{
+    color: chocolate;
+}
+.experience{
+    margin-top: 20px;
+}
+.experience ul{
+    margin: 5px 0px 20px 30px;
+}
+/* My Projects */
+.my-projects{
+    width: 1140px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #262626;
+    height: 525px;
+    padding: 20px;
+}
+.my-projects h3{
+    padding-left: 28px;
+    color: chocolate;
+    text-align: center;
+}
+.row{
+    overflow: hidden;
+    padding: 5px;
+}
+.row div{
+    float: left;
+    width: 200px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+.row div:hover{
+    background-color: chocolate;
+}
+.row div h4, p{
+    margin: 2px;
+}
+/* Footer Part */
+.contact{
+    width: 1140px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #262626;
+    height: 580px;
+    padding: 20px;
+}
+.contact h3{
+    margin-left: 18px;
+    color: chocolate;
+}
+.form form div{
+    margin: 15px;
+}
+.form form div input{
+    padding: 8px;
+    background-color: #262626;
+}
+#message{
+    background-color: #262626;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.submit{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color: #262626;
+    margin: 16px;
+}
+.submit a{
+    text-decoration: none;
+}
+.submit:hover{
+    background-color: chocolate;
+    border: none;
+}
+.link{
+    margin-top: 30px;
+    display: block;
+}
+.link a{
+    padding: 15px;
+}
